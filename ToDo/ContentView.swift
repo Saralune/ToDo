@@ -55,6 +55,7 @@ struct ContentView: View {
     }
   }
   
+  /// Help from Paul Hudscon : https://www.hackingwithswift.com/books/ios-swiftui/deleting-items-using-ondelete
   func removeRows(at offsets: IndexSet) {
     myTasks.remove(atOffsets: offsets)
   }
